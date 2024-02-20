@@ -1,0 +1,28 @@
+/* -----------------------------Responsive------------------------ */
+
+@media screen and (max-width: 992px) {
+    .vertical-menu {
+        display: none;
+    }
+
+    .horizon-hamb {
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    main .sec1 {
+        height: 24rem;
+        flex-direction: column;
+    }
+
+    .sec1-left,
+    .sec1-right {
+        height: 50%;
+        width: 100%;
+    }
+
+    .sec1-left {
+        text-align: center;
+    }
+}

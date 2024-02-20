@@ -1,0 +1,44 @@
+
+/* --------------------------Horizontal-Menu----------------------- */
+.horizontal-menu {
+  height: 4rem;
+  background-color: var(--menu-clr);
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.user {
+  height: 4rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 2rem;
+}
+
+.user-name {
+  width: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.horizon-icon {
+  transition: 0.8s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.horizon-icon:hover {
+color:var(--clr-purple);
+box-shadow: 1px 1px 20px var(--clr-purple);
+}

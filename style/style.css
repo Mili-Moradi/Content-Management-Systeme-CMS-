@@ -1,0 +1,81 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--main-clr);
+    font-size: medium;
+    font-family: var(--main-font);
+}
+
+body {
+    background-color: var(--bg-clr);
+}
+
+/* -----------------------------Variables------------------------ */
+:root {
+    --clr-purple: #7367f0;
+    --scroll-clr: #d3cff1;
+    --menu-clr: #fffefe;
+    --bg-clr: #e8e8e8;
+    --main-clr: #787684;
+    --soft-main-clr: #a6a4b0;
+    --main-font: "Montserrat", Helvetica, Arial, serif;
+}
+
+/* -----------------------------Border-Radius------------------------ */
+
+.horizontal-menu,
+.sec1-left,
+.sec1-right,
+.sec2,
+.sec3-left,
+.sec3-right,
+.sec4 {
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px rgb(182, 182, 182);
+
+}
+/* -----------------------------Hover------------------------ */
+
+.horizontal-menu:hover,
+.sec1-left:hover,
+.sec1-right:hover,
+.sec2:hover,
+.sec3-left:hover,
+.sec3-right:hover,
+.sec4:hover{
+    box-shadow: none;
+}
+
+/* -----------------------Sec2------------------- */
+.sec2 {
+    height: 16rem;
+    width: 100%;
+    background-color: var(--menu-clr);
+}
+/* -----------------------Sec3------------------- */
+
+.sec3 {
+    height: 12rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+/* -----------------------Sec3-Left&Right------------------- */
+
+.sec3-left,
+.sec3-right {
+    width: 50%;
+    background-color: var(--menu-clr);
+
+}
+/* -----------------------Sec4------------------- */
+
+.sec4 {
+    height: 16rem;
+    width: 100%;
+    background-color: var(--menu-clr);
+}

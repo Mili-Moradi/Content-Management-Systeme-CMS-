@@ -1,0 +1,159 @@
+/* -----------------------SEC-1----------------------- */
+
+/* ---------------------SEC-1-LEFT------------------- */
+.sec1 {
+    height: 12rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.sec1-left,
+.sec1-right {
+    height: 100%;
+    background-color: var(--menu-clr);
+}
+
+.sec1-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1-left-top {
+    padding: 1rem 0.5rem;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sec1-left-top img {
+    height: 5rem;
+}
+
+.sec1-h3 {
+    font-size: 1rem;
+    font-family: var(--main-font);
+    font-weight: normal;
+    margin-bottom: 0.7rem;
+}
+
+.sec1-p {
+    font-size: 0.8rem;
+    font-family: var(--main-font);
+}
+
+.sec1-left-bottom {
+    padding: 0.5rem;
+    min-height: 50%;
+}
+
+.sec1-left-bottom h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.sec1-left-bottom a {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: var(--clr-purple);
+    display: inline-block;
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5em 0;
+    border-radius: 5px;
+}
+
+/* --------------------------SEC-1-RIGHT------------------------ */
+.sec1-right {
+    padding: 0.5rem 1rem;
+    width: 70%;
+}
+
+.sec1-right-top {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec1-right-h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.sec1-right-p {
+    font-size: 0.8rem;
+}
+
+.sec1-right-bottom {
+    height: 70%;
+}
+
+.sec1-right-icons {
+    padding: 1rem 0.5rem;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sec1-right-icons li {
+    width: 20%;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.span {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1-right-icons li i {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    padding: 0.8rem;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.fa-arrow-trend-up {
+    color: #7367f0;
+    background-color: rgb(231, 226, 236);
+}
+
+.fa-users {
+    color: #00cfe8;
+    background-color: #b6e8ee;
+}
+
+.fa-cube {
+    color: #e91818;
+    background-color: rgb(255, 234, 234);
+}
+
+.fa-dollar-sign {
+    color: #06980a;
+    background-color: rgb(196, 230, 209);
+}
+
+.sec1-right-icon {
+    font-weight: bold;
+}
+
+.sec1-right-icons-text {
+    font-size: 0.7rem;
+}

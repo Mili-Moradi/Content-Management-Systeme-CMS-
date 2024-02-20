@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----------------------------------CSS---------------------------->
+
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/container-mainContainer-main.css" />
+    <link rel="stylesheet" href="style/horizontal.css" />
+    <link rel="stylesheet" href="style/vertical.css" />
+    <link rel="stylesheet" href="style/sec1.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <link rel="stylesheet" href="style/hamburger.css" />
+
+    <!---------------------------------favicon------------------------------>
+
+    <link rel="icon" href="img/favicon.ico" />
+
+    <!-------------------------------FontAwesom------------------------------->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <title>CMS-Mili</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <aside class="vertical-menu">
+        <!-------------------------------Vertical-Menu-Logo--------------------------->
+
+        <div class="logo">
+          <img class="logo-img" src="img/mili.png" alt="" />
+          <h3 class="logo-text">Mili</h3>
+        </div>
+
+        <!-------------------------------Vertical-Menu-Dashboards--------------------------->
+
+        <div class="dashboards">
+          <nav class="hamb-nav">
+            <input type="checkbox" id="dash-hamburg" />
+
+            <label for="dash-hamburg" class="dash-icon">
+              <i class="fa-solid fa-house"></i> <span>Dashboards</span>
+              <i class="fa-solid fa-angle-right"></i>
+              <i class="fa-solid fa-angle-down"></i>
+            </label>
+            <nav class="dashboards-menu">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-regular fa-circle"></i>Analystic</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-regular fa-circle"></i>eCommerce</a>
+                </li>
+              </ul>
+            </nav>
+          </nav>
+        </div>
+
+        <!-------------------------------Vertical-Menu-Apps--------------------------->
+
+        <ul class="apps">
+          <span>APPS & PAGES</span>
+
+          <li>
+            <a href="#" class="apps-a"
+              ><i class="fa-regular fa-envelope"></i>Email</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="apps-a"
+              ><i class="fa-regular fa-comment"></i>Chat</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="apps-a"
+              ><i class="fa-regular fa-square-check"></i>Todo</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="apps-a"
+              ><i class="fa-regular fa-calendar"></i>Calender</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="apps-a"
+              ><i class="fa-regular fa-envelope"></i>Orders</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="apps-a"
+              ><i class="fa-regular fa-user"></i>Customers</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="apps-a"
+              ><i class="fa-brands fa-shopify"></i>Products</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="apps-a"
+              ><i class="fa-solid fa-chart-line"></i>Charts</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="apps-a"
+              ><i class="fa-solid fa-receipt"></i>Invoice</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="apps-a"
+              ><i class="fa-solid fa-people-group"></i>Users</a
+            >
+          </li>
+        </ul>
+
+        <!-------------------------------Vertical-Menu-Logout--------------------------->
+
+        <a href="#" class="logout">
+          <i class="fa-solid fa-arrow-right-from-bracket"></i> Logout
+        </a>
+      </aside>
+
+      <!-------------------------------Horizontal-Menu---------------------------->
+
+      <div class="main-container">
+        <header>
+          <div class="horizontal-menu">
+            <div class="user">
+              <a href="#"><i class="fa-solid fa-arrow-right-from-bracket horizon-icon"></i></a>
+              <a href="#"><i class="fa-regular fa-moon horizon-icon"></i></a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass horizon-icon"></i></a>
+              <a href="#"><i class="fa-regular fa-bell horizon-icon"></i></a>
+
+              <div class="user-name">
+                <span>Mili Moradi </span>
+                <span> Admin </span>
+              </div>
+
+              <img src="img/mili-user.jpg" alt="" />
+            </div>
+          </div>
+        </header>
+        <!-------------------------------Main---------------------------->
+
+        <main>
+          <!-------------------------------Hamburger-Menu---------------------------->
+
+          <nav class="horizon-hamb">
+            <div class="row">
+              <input type="checkbox" id="horizont-hamb" />
+              <label for="horizont-hamb" class="horizont-hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </label>
+              <nav class="top-menu">
+                <ul>
+                  <li>
+                    <a href="#" class="apps-a"
+                      ><i class="fa-regular fa-envelope"></i>Email</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="apps-a"
+                      ><i class="fa-regular fa-comment"></i>Chat</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="apps-a"
+                      ><i class="fa-regular fa-square-check"></i>Todo</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="apps-a"
+                      ><i class="fa-regular fa-calendar"></i>Calender</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="apps-a"
+                      ><i class="fa-regular fa-envelope"></i>Orders</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="apps-a"
+                      ><i class="fa-regular fa-user"></i>Customers</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="apps-a"
+                      ><i class="fa-brands fa-shopify"></i>Products</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="apps-a"
+                      ><i class="fa-solid fa-chart-line"></i>Charts</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="apps-a"
+                      ><i class="fa-solid fa-receipt"></i>Invoice</a
+                    >
+                  </li>
+
+                  <li>
+                    <a href="#" class="apps-a"
+                      ><i class="fa-solid fa-people-group"></i>Users</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </nav>
+
+          <!-------------------------------Section1--------------------------->
+
+          <section class="sec1">
+            <!-----------------------Section1-Left---------------------->
+
+            <div class="sec1-left">
+              <div class="sec1-left-top">
+                <div class="sec1-text">
+                  <h3 class="sec1-h3">Congratulations🎉Mili!</h3>
+                  <p class="sec1-p">You have won gold medal</p>
+                </div>
+
+                <div class="sec1-img">
+                  <img class="img" src="img/medal.JPG" alt="" />
+                </div>
+              </div>
+              <div class="sec1-left-bottom">
+                <h1>$48.9k</h1>
+                <a href="#"> View Sales </a>
+              </div>
+            </div>
+            <!-----------------------Section1-Right---------------------->
+
+            <div class="sec1-right">
+              <div class="sec1-right-top">
+                <h3 class="sec1-right-h3">Statistics</h3>
+                <p class="sec1-right-p">Updated 1 month ago</p>
+              </div>
+
+              <div class="sec1-right-bottom">
+                <ul class="sec1-right-icons">
+                  <li>
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <div class="span">
+                      <span class="sec1-right-icon">230k</span>
+                      <span class="sec1-right-icons-text">Sales</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <i class="fa-solid fa-users"></i>
+                    <div class="span">
+                      <span class="sec1-right-icon">8.549k</span>
+                      <span class="sec1-right-icons-text">Customers</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <i class="fa-solid fa-cube"></i>
+                    <div class="span">
+                      <span class="sec1-right-icon">1423k</span>
+                      <span class="sec1-right-icons-text">Products</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <div class="span">
+                      <span class="sec1-right-icon">$9745</span>
+                      <span class="sec1-right-icons-text">Revenue</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-------------------------------Section2--------------------------->
+
+          <section class="sec2"></section>
+
+          <!-------------------------------Section3--------------------------->
+
+          <section class="sec3">
+            <div class="sec3-left"></div>
+
+            <div class="sec3-right"></div>
+          </section>
+          <!-------------------------------Section4--------------------------->
+
+          <section class="sec4"></section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

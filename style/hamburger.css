@@ -1,0 +1,95 @@
+
+
+/* --------------------------Horizontal-Hamberger-menu----------------------- */
+.horizon-hamb {
+  width: 15rem;
+  height: 30rem;
+  margin: 0 auto;
+  display: none;
+}
+.row {
+  float: right;
+}
+
+.horizont-hamburger {
+  display: block;
+  background: var(--scroll-clr);
+  width: 75px;
+  height: 50px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
+#horizont-hamb {
+  display: none;
+}
+
+.line {
+  position: absolute;
+  left: 10px;
+  height: 4px;
+  width: 55px;
+  background: #fff;
+  border-radius: 2px;
+  display: block;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.line:nth-child(1) {
+  top: 12px;
+}
+.line:nth-child(2) {
+  top: 24px;
+}
+.line:nth-child(3) {
+  top: 36px;
+}
+
+#horizont-hamb:checked + .horizont-hamburger .line:nth-child(1) {
+  transform: translateY(12px) rotate(-45deg);
+}
+
+#horizont-hamb:checked + .horizont-hamburger .line:nth-child(2) {
+  opacity: 0;
+}
+
+#horizont-hamb:checked + .horizont-hamburger .line:nth-child(3) {
+  transform: translateY(-12px) rotate(45deg);
+}
+
+.top-menu {
+  background-color:var(--menu-clr);
+  box-shadow: 1px 1px 20px rgb(182, 182, 182);
+  border-radius: 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+#horizont-hamb:checked + .horizont-hamburger + .top-menu {
+  max-height: 600px;
+}
+
+.top-menu ul {
+   width: 14rem;
+  list-style-type: none;
+  text-align: left;
+  padding: 1rem;
+}
+
+.top-menu li {
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+.apps-a {
+  text-decoration: none;
+  color: var(--main-clr);
+  transition: 0.8s;
+}
+.apps-a:hover {
+  padding-left: 1.5rem;
+}
+
