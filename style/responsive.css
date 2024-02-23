@@ -5,8 +5,8 @@
         display: none;
     }
 
-    .horizon-hamb {
-        display: flex !important;
+    main .horizon-hamb {
+        display: flex;
     }
 }
 
